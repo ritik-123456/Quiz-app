@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="title"><span class="auto-type">Welcome to the Quiz App !</span></h1>
+    </div>
+    <button id="start-btn" onclick="window.location.href='index.html'">Start Quiz</button>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        const typed = new Typed('#title', {
+            strings: ['Welcome to the Quiz App !'],
+            typeSpeed: 50,
+            backSpeed: 250,
+            loop: true
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>

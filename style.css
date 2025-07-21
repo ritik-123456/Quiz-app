@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(11, 40, 108);
+}
+#title{
+    font-style: italic;
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', 'Poppins', 'Segoe UI', Arial, sans-serif;
+    /* Typing effect will be handled by JavaScript, so no CSS change needed here */
+    margin-top: 20px;
+    font-weight: 600;
+}
+.app{
+    background-color:#fff;
+    width:90%;
+    max-width:600px;
+    margin:100px auto 0;
+    border-radius: 10px;
+    padding:30px;
+}
+.app h1{
+    font-size: 25px;
+    color:rgb(21, 21, 21);
+    font-weight:600;
+    border-bottom:1px solid black;
+    padding-bottom: 30px;
+}
+.quiz{
+    padding:20px 0;
+}
+.quiz h2{
+    font-size:18px;
+    color:#001e4d;
+    font-weight:600;
+}
+.btn{
+    background: white;
+    color:#222;
+    font-weight:500;
+    width:100%;
+    height:50px;
+    margin:4px;
+    border-radius:4px;
+    cursor:pointer;
+}
+.btn:hover.btn:hover:not([disabled]){
+    background-color: #222;
+    color:white;
+}
+.btn:disabled{
+    cursor:no-drop;
+}   
+#next-btn{
+    background: #001e4d;
+    color:#fff;
+    font-weight:500;
+    width:150px;
+    border:0;
+    padding:10px;
+    margin:20px auto 0;
+    border-radius: 4px;
+    cursor:pointer;
+    display: block;
+}
+.correct{
+    background-color: green;
+    color:white;
+}
+.incorrect{
+    background-color: red;
+    color:white;
+}
+.container{
+    margin-top:250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#start-btn{
+    background: #001e4d;
+    color:#fff;
+    font-weight:500;
+    width:150px;
+    border:0;
+    padding:10px;
+    margin:20px auto 0;
+    border-radius: 4px;
+    cursor:pointer;
+    display: block;
+}
